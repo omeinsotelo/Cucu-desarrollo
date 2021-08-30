@@ -426,26 +426,26 @@
                     <input type="checkbox" name="" id="">
                     <img src="images/ampliado.jpg" alt="">
                     <div class="info-producto-carrito">
-                        <h4 class="cat-producto-ampliado">Categoria</h4>
-                        <h2 class="nombre-producto-ampliado">Nombre del producto</h2>
+                        <h4 class="cat-producto-carro align">Cucu Clothing</h4>
+                        <h2 class="nombre-producto-carro">Vestido Margarita de cuadros</h2>
                         <span class="txt-advertencia">Disponible</span>
 
                         <ul class="caracteristicas-producto-carrito">
                             <li>
-                                <label class="">Talla:</label>
-                                <span class="">9-12 m</span>
+                                <label class="nombre-lista-filtros">Talla:</label>
+                                <span class="detalle-carro">9-12 m</span>
                             </li>
                             <li>
-                                <label class="">Color:</label>
+                                <label class="nombre-lista-filtros">Color:</label>
                                 <div class="square-filtro-color" style="background-color: aqua;"></div>
-                                <span class="nombre-lista-filtros">Color 1</span>
+                                <span class="detalle-carro">Negro</span>
                             </li>
                         </ul>
 
                         <div class="contenedor-acciones-producto-carrito">
                             <!-- Cantidad -->
                             <div class="cantidad-producto-carrito">
-                                <label>Cantidad</label>
+                                <label>Cantidad:</label>
                                 <select>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -454,263 +454,113 @@
                                 </select>
                             </div>
                             
-                            <button type="button" role="button">Guardar para más tarde</button>
-                            <button type="button" role="button">Eliminar</button>
+                            <button type="button" role="button"  id="bt-guardar-producto" class="detalle-carro">Guardar para más tarde</button>
+                            <button type="button" role="button" id="bt-eliminar-producto"class="detalle-carro">Eliminar</button>
                         </div>
 
-                        <label for="">
+                        <label for="" class="confirma-regalo">
                             <input type="checkbox" name="" id="">
                             <span >Es un regalo</span>
                         </label>
 
-                        <a href="">Más información</a>
+                        <a href="" class="mas-info-carro">Más información</a>
 
                     </div>
-                    <span class="precio-producto-carrito">$500.000 COP</span>
+                    <span class="precio-producto-carrito">$120.000 cop</span>
+                </div>
+
+                <!-- Fin Fila con producto-->
+                <!-- Fila con producto-->
+                <div class="contenedor-producto-carrito">
+                  <input type="checkbox" name="" id="">
+                  <img src="images/ampliado.jpg" alt="">
+                  <div class="info-producto-carrito">
+                      <h4 class="cat-producto-carro align">Cucu Clothing</h4>
+                      <h2 class="nombre-producto-carro">Vestido Margarita de cuadros</h2>
+                      <span class="txt-advertencia">Disponible</span>
+
+                      <ul class="caracteristicas-producto-carrito">
+                          <li>
+                              <label class="nombre-lista-filtros">Talla:</label>
+                              <span class="detalle-carro">9-12 m</span>
+                          </li>
+                          <li>
+                              <label class="nombre-lista-filtros">Color:</label>
+                              <div class="square-filtro-color" style="background-color: aqua;"></div>
+                              <span class="detalle-carro">Negro</span>
+                          </li>
+                      </ul>
+
+                      <div class="contenedor-acciones-producto-carrito">
+                          <!-- Cantidad -->
+                          <div class="cantidad-producto-carrito">
+                              <label>Cantidad:</label>
+                              <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                              </select>
+                          </div>
+                          
+                          <button type="button" role="button"  id="bt-guardar-producto" class="detalle-carro">Guardar para más tarde</button>
+                          <button type="button" role="button" id="bt-eliminar-producto"class="detalle-carro">Eliminar</button>
+                      </div>
+
+                      <label for="" class="confirma-regalo">
+                          <input type="checkbox" name="" id="">
+                          <span >Es un regalo</span>
+                      </label>
+
+                      <a href="" class="mas-info-carro">Más información</a>
+
+                  </div>
+                  <span class="precio-producto-carrito">$120.000 cop</span>
                 </div>
 
                 <!-- Fin Fila con producto-->
 
+                <!-- sub total carro horizontal-->
+                <div class="sub-total-horizontal">
+                  <h4>Subtotal</h4>
+                  <span>(2 productos):</span>
+                  <h3>$240.000 COP</h3>
+                </div>
+                <!-- Fin sub total carro horizontal-->
 
             </div>    
             <!-- FIN lista de productos -->
 
             <!-- lista de productos -->
             <div id="resumen-cuenta-carrito">
-
+              <div class="cupon">
+                <img src="images/tag.svg" alt="tag">
+                <p><b>-10%</b> POR TU PRIMERA COMPRA<br> Con el cupón 1COMPRACUCU</p>
+              </div>
+              <div class="sub-total">
+                <h4>Subtotal</h4>
+                <span>(2 productos):</span>
+              </div>
+              <h3>$240.000 COP</h3>
+              <label for="" class="confirma-regalo margin-confirma-regalo">
+                <input type="checkbox" name="" id="">
+                <span >Esta compra es un regalo</span>
+              </label>
+              <button class="btn text-white">PROCEDER AL PAGO</button>
             </div>    
             <!-- FIN lista de productos -->
 
         </div>
+        <!-- FIN CONTENEDOR PRINCIPAL PRODUCTO AMPLIADO -->
 
-
-
-
-
-
-
-
-
-
-
-
-        <div id="wrap-producto-ampliado">
-
-            <!-- Galería Columna -->
-            <div id="columna-galeria-producto-ampliado">
-
-                <!-- Esto título lo dejo oculto para la versión movil -->
-                <div id="header-movil-producto-ampliado">
-                    <h4 class="cat-producto-ampliado">Categoria</h4>
-                    <h2 class="nombre-producto-ampliado">Nombre del producto</h2>
-                    <div class="wrap-precio-producto-ampliado">
-                        <span class="precio-producto-ampliado">$500.000</span>
-                    </div>
-                </div>
-                <!-- *************************** -->
-
-                <div id="wrap-galeria-producto-ampliado">
-
-                    <div id="wrap-thumbs-producto-ampliado">
-                        <img src="images/ampliado.jpg" alt="">
-                        <img src="images/ampliado.jpg" alt="">
-                        <img src="images/ampliado.jpg" alt="">
-                        <img src="images/ampliado.jpg" alt="">
-                    </div>
-
-                    <div id="galeria-producto-ampliado">
-                        <img src="images/arrow-left.svg" class="flecha-left-slider" id="flecha-left-galeria-producto-ampliado">
-                        <img src="images/arrow-right.svg" class="flecha-right-slider" id="flecha-right-galeria-producto-ampliado">
-
-                        <div id="slider-galeria-producto-ampliado">
-                            <img src="images/ampliado.jpg" alt="">
-                            <img src="images/ampliado.jpg" alt="">
-                            <img src="images/ampliado.jpg" alt="">
-                            <img src="images/ampliado.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Información Columna-->
-            <div id="wrap-informacion-producto-ampliado">
-
-                <!-- Contenedor que guarda la informaicón del producto antes de la elección de variantes-->
-                <div id="header-informacion-producto-ampliado">
-                    
-                    <!-- información producto: título para desktop -->
-                    <div id="informacion-producto-ampliado">
-                        <h4 class="cat-producto-ampliado">Categoria</h4>
-                        <h2 class="nombre-producto-ampliado">Nombre del producto</h2>
-                        <div class="wrap-precio-producto-ampliado">
-                            <span class="precio-producto-ampliado">$500.000</span>
-                        </div>
-                    </div>
-
-                    <!-- valoración producto -->
-                    <div class="wrap-estrellas-comentarios-producto-ampliado">
-                        <div class="wrap-evaluacion-producto-ampliado">
-                            <span class="material-icons full-star">star</span>
-                            <span class="material-icons full-star">star</span>
-                            <span class="material-icons full-star">star</span>
-                            <span class="material-icons full-star">star</span>
-                            <span class="material-icons half-star">star_half</span>
-                            <span class="material-icons no-star">star_outline</span>
-                        </div>
-
-                        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-
-                        <div><p><span>2</span> comentarios</p></div>
-            
-                    </div>
-
-                    <!-- Cartel de descuento -->
-                    <div id="cartel-descuento">
-                        <img src="images/tag.svg" alt="tag">
-                        <p><b>-10%</b> POR TU PRIMERA COMPRA<br> Con el cupón 1COMPRACUCU</p>
-                    </div>
-
-                    <!-- Info del artículo-->
-                    <p class="info-articulo">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis mi, elementum in sollicitudin eget, aliquam iaculis risus. Aliquam interdum rhoncus odio. Nam ut lectus sem. Nam maximus condimentum tellus eget eleifend. Cras pulvinar, diam eu tincidunt feugiat, lorem erat porta turpis, quis sodales odio nisl tincidunt massa
-                        <a href="">Ver más</a>
-                    </p>
-                   
-
-                </div>
-                <!-- Fin Contenedor que guarda la informaicón del producto antes de la elección de variantes-->
-                <!-- ***** -->
-                <!-- ***** -->
-
-
-                <!-- Variantes de elección -->
-                <form id="variantes-producto-ampliado">
-                    <!--Color -->
-                    <div id="wrap-variante-color-producto-ampliado">
-                        <h5 class="titulo-variantes-producto-ampliado">Color</h5>
-                        <ul id="lista-variante-color-producto-ampliado">
-                            <li>
-                                <div class="square-filtro-color" style="background-color: aqua;"></div>
-                                <input type="radio" id="color1" name="color" class="hidden colorCheck">
-                                <label for="color1" class="nombre-lista-filtros">Color 1</label>
-                            </li>
-                            <li>
-                                <div class="square-filtro-color" style="background-color: #f700ff;"></div>
-                                <input type="radio" id="color2" name="color" class="hidden colorCheck">
-                                <label for="color2" class="nombre-lista-filtros">Color 2</label>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Talla -->
-                    <div id="wrap-variante-talla-producto-ampliado">
-
-                        <div class="contenedor-titulo-variantes-producto-ampliado" >
-                            <h5 class="titulo-variantes-producto-ampliado">Talla</h5>
-
-                            <a href="" class="enlaceGuiaTallas">
-                                <img src="images/Talla.svg" alt="Guía de tallas">
-                                <span>Guía de Tallas</span>
-                            </a>
-                        </div>
-
-                        <ul id="wrap-talles-variantes-producto-ampliado">
-                            <li class="talle-variantes-producto-ampliado">
-                                <label>1-3m</label>
-                                <input type="radio" id="1-3m" name="talla" class="hidden">
-                            </li>
-                            <li class="talle-variantes-producto-ampliado">
-                                <label>5-6m</label>
-                                <input type="radio" id="5-6m" name="talla" class="hidden">
-                            </li>
-                            <li class="talle-variantes-producto-ampliado talle-disabled">
-                                <label>6-9m</label>
-                                <input type="radio" id="6-9m" name="talla" class="hidden">
-                            </li>
-                            <li class="talle-variantes-producto-ampliado">
-                                <label>9-12m</label>
-                                <input type="radio" id="9-12m" name="talla" class="hidden">
-                            </li>
-                        </ul>
-
-                        <span class="txt-advertencia">**quedan pocos ítems en stock</span>
-
-                    </div>
-
-                    <!-- Selecciona cantidad -->
-                    <div id="wrap-variante-cantidad-producto-ampliado">
-                        <select name="cantidad" class="select-field">
-                            <option value="0">Selecciona la cantidad</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                        </select>
-                    </div>
-
-                    <button class="boton back2 w-100" id="addCart">AGREGAR AL CARRTITO - $<span>120.000</span></button>
-
-                    <a href="" class="bt-agregar-lista-deseos">
-                        <span class="material-icons">favorite</span>
-                        <span>Agrega a tu lista de deseos</span>
-                    </a> 
-
-                </form>
-                <!-- Fin Variantes de elección-->
-                <!-- ***** -->
-                <!-- ***** -->
-
-                <!-- Información de envíos -->
-                <div id="wrap-info-envio-producto-ampliado">
-                    <div class="contenedor-titulo-info-envio-producto-ampliado" >
-                        <img src="images/truck.svg" alt="envios">
-                        <h5 class="titulo-variantes-producto-ampliado">Envíos, cambios y devoluciones</h5>
-                    </div>
-                    <p class="info-articulo">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis mi, elementum in sollicitudin eget, aliquam iaculis risus. Aliquam interdum rhoncus odio. Nam ut lectus sem. Nam maximus condimentum tellus eget eleifend. Cras pulvinar, diam eu tincidunt feugiat, lorem erat porta turpis, quis sodales odio nisl tincidunt massa
-                        <a href="">Ver más</a>
-                    </p>
-                </div>
-                <!-- Fin Información de envíos -->
-                <!-- ***** -->
-                <!-- ***** -->
-
-                <!-- Compartir -->
-                <div id="wrap-compartir-producto-ampliado">
-                    <h5 class="titulo-variantes-producto-ampliado">Compartir</h5>
-                    <ul id="lista-compartir-producto-ampliado">
-                        <li><a href=""><img src="images/face.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/pinterest.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/twitter.svg" alt=""></a></li>
-                    </ul>
-                </div>
-                <!-- Fin Compartir -->
-                <!-- ***** -->
-                <!-- ***** -->
-
-
-            </div>
-            <!-- Finaliza la columna de información del producto-->
-            
-
-        </div>
-
-        <!-- Finaliza el CONTENEDOR PRINCIPAL PRODUCTO AMPLIADO -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-
-        <!-- MÁS INFORMACIÓN / COMENTARIOS Y VALORACIONES -->
+        <!-- TUS ARTICULOS -->
         <div id="wrap-masinformacion-producto-ampliado">
+            <h2 class="título-articulos-carro">Tus artículos</h2>
 
-            <nav id="tabs-header-masinformacion-producto-ampliado">
+            <nav id="tabs-header-masinformacion-producto-ampliado-carro">
 
-                <button type="button" role="button" class="header-masinformacion-producto-ampliado">MÁS INFORMACIÓN</button>
-                <button type="button" role="button" class="header-masinformacion-producto-ampliado">CARACTERÍSTICAS, MATERIALES Y CUIDADOS</button>
-                <button type="button" role="button" class="header-masinformacion-producto-ampliado">VALORACIÓN Y COMENTARIOS</button>
+                <button type="button" role="button" class="header-masinformacion-producto-ampliado space">GUARDAR PARA MÁS TARDE</button>
+                <button type="button" role="button" class="header-masinformacion-producto-ampliado space">COMPRAR NUEVAMENTE</button>
 
             </nav>
 
@@ -724,8 +574,8 @@
                   <h4>Sub-título</h4>
                   <h5>Sub-título</h5>
                   <h6>Sub-título</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis mi, elementum in sollicitudin eget, aliquam iaculis risus. Aliquam interdum rhoncus odio. Nam ut lectus sem. Nam maximus condimentum tellus eget eleifend. Cras pulvinar, diam eu tincidunt feugiat, lorem erat porta turpis, quis sodales odio nisl tincidunt massa
-                    <a href="">Ver más</a></p>
+                  <p class="filete-parrafo">El precio y la disponibilidad de los productos de Cucu Shop están sujetos a cambio. En el carrito de compras puedes dejar temporalmente los productos que quieras. 
+                    Aparecerá el precio más reciente de cada producto.<a href=""> Más información.</a> ¿Tienes una tarjeta de regalo o cupón? Te pediremos que introduzcas el código de canjeo al momento de realizar el pago</p>
                 </section>
                 <!-- ****** -->
 
@@ -737,80 +587,8 @@
                   <h4>Sub-título</h4>
                   <h5>Sub-título</h5>
                   <h6>Sub-título</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis mi, elementum in sollicitudin eget, aliquam iaculis risus. Aliquam interdum rhoncus odio. Nam ut lectus sem. Nam maximus condimentum tellus eget eleifend. Cras pulvinar, diam eu tincidunt feugiat, lorem erat porta turpis, quis sodales odio nisl tincidunt massa
-                    <a href="">Ver más</a></p>
-                </section>
-                <!-- ****** -->
-
-                <!-- tab 3 - Valoración -->
-                <section class="tab-masinformacion-producto-ampliado">
-                  
-                  <!-- Valoraciones y botón de comentario -->
-                  <div id="header-valoracion-producto-ampliado">
-
-                      <!-- Valoraciones recibidas-->
-                      <div>
-                        <h6><b>Valoración y comentarios</b></h6>
-                        <!-- valoración producto -->
-                        <div class="wrap-estrellas-comentarios-producto-ampliado">
-                          <div class="wrap-evaluacion-producto-ampliado">
-                              <span class="material-icons full-star">star</span>
-                              <span class="material-icons full-star">star</span>
-                              <span class="material-icons full-star">star</span>
-                              <span class="material-icons full-star">star</span>
-                              <span class="material-icons half-star">star_half</span>
-                              <span class="material-icons no-star">star_outline</span>
-                          </div>
-
-                          <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-
-                          <div><p><span>2</span> comentarios</p></div>
-                        </div>
-                      </div>
-
-                      <!-- Escribir un comentario-->
-                      <a href="" class="bt-outline">Escribir un comentario</a>
-                  </div>
-
-                  <!-- ************** -->
-                  
-
-                  <!-- Notas de valoración -->
-                  <div id="wrap-notas-valoracion">
-                    <h6><b>Selecciona una nota para ver los comentarios</b></h6>
-                    <ul id="notas-valoracion">
-                      <li><span class="valoracion">0</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                      <li><span class="valoracion">1</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                      <li><span class="valoracion">2</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                      <li><span class="valoracion">3</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                      <li><span class="valoracion">4</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                      <li><span class="valoracion">5</span> <span class="material-icons full-star">star</span> <div class="back-visual-valoracion"><div class="visual-valoracion" style="width: 50%;"></div></div><span class="valoracion">2</span></li>
-                    </ul>
-                  </div>
-
-                  <!-- Contenedor de comentarios -->
-                  <div id="wrap-lista-comentarios">
-                    <p>1-2 de 2 comentarios</p>
-
-                    <div class="wrap-comentario-cliente">
-                      <h4>El vestido es lindo</h4>
-                      <h5>por Jenny</h5>
-                      <div class="wrap-evaluacion-producto-ampliado">
-                          <span class="material-icons full-star">star</span>
-                          <span class="material-icons full-star">star</span>
-                          <span class="material-icons full-star">star</span>
-                          <span class="material-icons full-star">star</span>
-                          <span class="material-icons half-star">star_half</span>
-                          <span class="material-icons no-star">star_outline</span>
-                      </div>
-                      <p>Comentario.................</p>
-
-                    </div>
-
-                  </div>
-
-
-
+                  <p class="filete-parrafo">El precio y la disponibilidad de los productos de Cucu Shop están sujetos a cambio. En el carrito de compras puedes dejar temporalmente los productos que quieras. 
+                    Aparecerá el precio más reciente de cada producto.<a href=""> Más información.</a> ¿Tienes una tarjeta de regalo o cupón? Te pediremos que introduzcas el código de canjeo al momento de realizar el pago</p>
                 </section>
                 <!-- ****** -->
 
@@ -826,166 +604,6 @@
         <!-- *********** -->
 
 
-        <!-- CARRUSEL RELACIONADOS -->
-        <section class="wrap-carrusel-producto">
-          <h2 class="titulo-seccion">Productos relacionados</h2>
-
-          <!-- contenedor del carrusel-->
-          <div id="productos-relacionados">
-
-            <img src="images/arrow-left.svg" class="flecha-left-slider" id="flecha-left-carrusel-relacionados">
-            <img src="images/arrow-right.svg" class="flecha-right-slider" id="flecha-right-carrusel-relacionados">
-
-            <div id="carrusel-productos-relacionados">
-
-                <!-- Producto -->
-                <div class="wrap-articulo-carrusel">
-                  <a href class="thumb-articulo-carrusel"> 
-                    <img src="images/Grupo 264.png" alt="">
-                  </a>
-                  <div class="info-articulo-carrusel">
-                    <h4 class="cat-articulo-carrusel">Categoria</h4>
-                    <a href="" class="nombre-articulo-carrusel"><h3>Nombre del producto</h3></a>
-                    <span class="precio-articulo-carrusel">$500.000</span>
-                    
-                    <div class="wrap-evaluacion-articulo-carrusel">
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons half-star">star_half</span>
-                      <span class="material-icons no-star">star_outline</span>
-                    </div>
-
-                    <a href="" class="boton back5">COMPRAR</a>
-
-                  </div>
-                </div>
-                <!-- Fin del Producto --------- -->
-
-            </div>
-            <!-- fin del carrusel -->
-
-          </div>
-          <!-- Fin del contenedor gernal del carrusel -->
-
-        </section>
-        <!-- Finaliza CARRUSEL RELACIONADOS -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-
-
-
-        <!-- CARRUSEL SIMILARES -->
-        <section class="wrap-carrusel-producto">
-          <h2 class="titulo-seccion">Productos similares</h2>
-
-          <!-- contenedor del carrusel-->
-          <div id="productos-similares">
-
-            <img src="images/arrow-left.svg" class="flecha-left-slider" id="flecha-left-carrusel-similares">
-            <img src="images/arrow-right.svg" class="flecha-right-slider" id="flecha-right-carrusel-similares">
-
-            <div id="carrusel-productos-similares">
-
-                <!-- Producto -->
-                <div class="wrap-articulo-carrusel">
-                  <a href class="thumb-articulo-carrusel"> 
-                    <img src="images/Grupo 264.png" alt="">
-                  </a>
-                  <div class="info-articulo-carrusel">
-                    <h4 class="cat-articulo-carrusel">Categoria</h4>
-                    <a href="" class="nombre-articulo-carrusel"><h3>Nombre del producto</h3></a>
-                    <span class="precio-articulo-carrusel">$500.000</span>
-                    
-                    <div class="wrap-evaluacion-articulo-carrusel">
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons half-star">star_half</span>
-                      <span class="material-icons no-star">star_outline</span>
-                    </div>
-
-                    <a href="" class="boton back5">COMPRAR</a>
-
-                  </div>
-                </div>
-                <!-- Fin del Producto --------- -->
-
-            </div>
-            <!-- fin del carrusel -->
-
-          </div>
-          <!-- Fin del contenedor gernal del carrusel -->
-
-        </section>
-        <!-- Finaliza CARRUSEL SIMILARES -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-
-
-
-        <!-- CARRUSEL RECIEN VISTOS -->
-        <section class="wrap-carrusel-producto">
-          <h2 class="titulo-seccion">Recién vistos</h2>
-
-          <!-- contenedor del carrusel-->
-          <div id="recien-vistos">
-
-            <img src="images/arrow-left.svg" class="flecha-left-slider" id="flecha-left-carrusel-recien-vistos">
-            <img src="images/arrow-right.svg" class="flecha-right-slider" id="flecha-right-carrusel-recien-vistos">
-
-            <div id="carrusel-productos-recien-vistos">
-
-                <!-- Producto -->
-                <div class="wrap-articulo-carrusel">
-                  <a href class="thumb-articulo-carrusel"> 
-                    <img src="images/Grupo 264.png" alt="">
-                  </a>
-                  <div class="info-articulo-carrusel">
-                    <h4 class="cat-articulo-carrusel">Categoria</h4>
-                    <a href="" class="nombre-articulo-carrusel"><h3>Nombre del producto</h3></a>
-                    <span class="precio-articulo-carrusel">$500.000</span>
-                    
-                    <div class="wrap-evaluacion-articulo-carrusel">
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons full-star">star</span>
-                      <span class="material-icons half-star">star_half</span>
-                      <span class="material-icons no-star">star_outline</span>
-                    </div>
-
-                    <a href="" class="boton back5">COMPRAR</a>
-
-                  </div>
-                </div>
-                <!-- Fin del Producto --------- -->
-
-            </div>
-            <!-- fin del carrusel -->
-
-          </div>
-          <!-- Fin del contenedor gernal del carrusel -->
-
-        </section>
-        <!-- Finaliza CARRUSEL RECIEN VISTOS -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-        <!-- *********** -->
-
-
-
-
-
-
-        
         <!-- *********** -->
         <!-- *********** -->
         <!-- *********** -->
