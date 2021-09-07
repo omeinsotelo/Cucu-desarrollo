@@ -394,6 +394,48 @@ $(document).ready(function(){
 		]
 	});
 
+
+	$("#carrusel-otros-productos").slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		arrows: true,
+		infinite: true,
+		prevArrow:'#flecha-left-carrusel-otros-productos',
+		nextArrow:'#flecha-right-carrusel-otros-productos',
+		responsive: [
+			{
+			breakpoint: 1100,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				}
+			},
+			{
+			breakpoint: 960,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				}
+			},
+			{
+			breakpoint: 750,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				}
+			},
+			{
+			breakpoint: 550,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				}
+			}
+		]
+	});
+
+	
+
 	/* Carrusel producto ampliado */
 
 	$('#slider-galeria-producto-ampliado').slick({
@@ -714,6 +756,28 @@ $(document).ready(function(){
 			$(boton).css("opacity", "0.5");
 		}
 	};
+
+	/* MODALES */
+	$("#bt-agregarDireccion").click(function(){	
+		showModal("#agregar-direccion");
+	});
+
+	$(".bt-close-modal").click(function(){	
+		hideModal();
+	});
+
+	function showModal(elemento){
+		$(elemento).addClass("show-modal");
+		$("#lightBox-Back").addClass("show-lightBox-Back-3");
+		$("body").addClass("fixed-body");
+		$("html, body").animate({ scrollTop: 0 }, 500, 'linear');
+	}
+
+	function hideModal(){
+		$(".modal-cucu").removeClass("show-modal");
+		$("#lightBox-Back").removeClass("show-lightBox-Back-3");
+		$("body").removeClass("fixed-body");
+	}
 
 
 });
