@@ -3269,6 +3269,37 @@ input[type="range"]::-webkit-slider-thumb {
     border-right: 1px solid var(--color2);
     margin: 0 20px 0 0;
 }
+.tucuentaBoton{
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    margin: 30px auto;
+}
+.tucuentaTitulo{
+    display: inline-block;
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+.tucuentaTituloIco{
+    color: var(--color1);
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    display: none;
+}
 .tuCuentaMovil{
     display: none;
 }
@@ -3945,10 +3976,6 @@ input[type="range"]::-webkit-slider-thumb {
     .wrap-enlace-acordeon-menu-cuenta{
         justify-content:;
     }
-    .enlace-cerrar-menu-cuenta{}
-    .bajada-titulo-seccion{
-        display: none;
-    }
     .tuCuentaMovil h4{
         font-size: 1.6em;
         font-family: var(--font2);
@@ -3956,6 +3983,9 @@ input[type="range"]::-webkit-slider-thumb {
         color: var(--color2);
         text-transform: uppercase;
         padding-left: 30px;
+    }
+    .tucuentaTituloIco{
+        display: inline-block;
     }
 }
 
