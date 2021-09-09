@@ -2474,7 +2474,6 @@ input[type="range"]::-webkit-slider-thumb {
     width: 20px;
     cursor: pointer;
     margin-bottom: 25px;
-    
 }
 
 #message-addCart h5{
@@ -3269,7 +3268,7 @@ input[type="range"]::-webkit-slider-thumb {
     border-right: 1px solid var(--color2);
     margin: 0 20px 0 0;
 }
-.tucuentaBoton{
+#tucuentaBoton{
     display: flex;
     align-items: center;
     height: auto;
@@ -3308,6 +3307,11 @@ input[type="range"]::-webkit-slider-thumb {
     flex:3;
 }
 
+#close-menuCuenta{
+    width: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
 
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
@@ -3960,15 +3964,22 @@ input[type="range"]::-webkit-slider-thumb {
     /* CONTENEDOR PRICIPAL PRODUCTO AMPLIADO*/
     /* wrap-navegador-cuenta*/
     #wrap-navegador-cuenta{
-        position: absolute;
+        position: fixed;
         top: 0;
-        right: 0;
+        right: -5000px;
         z-index: 1010;
         background:var(--color3);
         border-right: none;
         width: 80%;
-        padding: 0;
+        height: 100vh;
+        padding: 20px;
+        margin: 0;
     }
+
+    .view-wrap-navegador-cuenta{
+        right: 0 !important;
+    }
+
     .tuCuentaMovil{
         display: flex;
         margin-top: 20px;
